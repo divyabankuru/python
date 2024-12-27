@@ -1,0 +1,9 @@
+a=11
+print("a=",a)
+n=21
+print("n=",n)
+print(type(n))
+n=21.2
+print(type(n))
+n=2+3j
+print(type(n))
