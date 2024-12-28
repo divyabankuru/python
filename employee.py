@@ -1,31 +1,33 @@
-n=str(input("Enter employee name:"))
-d=str(input("Designation:"))
-s=int(input("salary:"))
-specialallow=int(input("Spcall:"))
+n=str(input("enter employee name:"))
+d=str(input("enter designation:"))
+s=int(input("enter salary:"))
+specialallow=int(input("enter  special allowance:"))
 b=int(input("bonus:"))
-print("Employee details")
-print("---------------------")
-print("Employee Name:",n)
-print("Designation:",d)
-print("Monthly salary:",s)
-print("Special Allowances:",specialallow)
-print("Bonus:",b)
-#Gross Monthly salary
-gms=s+specialallow
-print("Gross Monthly Salary:",gms)
+print("employee details")
+print("---------------------------")
+print("employee name:",n)
+print("designation:",d)
+print("salary:",s)
+print("special allowance:",specialallow)
+print("bonus:",b)
+#gross month salary
+gvs=s+specialallow
+print("gross month salary:",gvs)
+print("------------------------")
 #gross annual salary
-gas=(gms*12+b)
-print("Gross annual salary:",gas)
+gas=(gvs*12+b)
+print("gross annual salary:",gas)
+print("---------------------------------")
 #taxable income
 if(gas>500000):
     tax=(gas*15/100)
-    taxinc=gas-tax
-    print("Taxable income:",taxinc)
+    taxnic=gas-tax
+    print("taxable income:,",taxnic)
 elif(gas>400000):
     tax=(gas*10/100)
-    taxinc=gas-tax
-    print("Taxable income:",taxinc)
+    taxnic=gas-tax
+    print("taxable income:",taxnic)
 else:
     tax=(gas*2/100)
-    taxinc=gas-tax
-    print("Taxable income:",taxinc)
+    taxnic=gas-tax
+    print("taxable income:",taxnic)    
