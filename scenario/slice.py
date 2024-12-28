@@ -1,0 +1,15 @@
+prog_lang=['c','c++','java','python','flutter','cobalt','dart','javascript']
+print(prog_lang)
+print(type(prog_lang))
+print("--------------------------------------------")
+print("slicing of list:")
+print(prog_lang[:4])
+print(prog_lang[4:])
+print(prog_lang[::2])
+print("slicing list of  negative elements:")
+print(prog_lang[:8])
+print(prog_lang[:0])
+print(prog_lang[-8:-1])
+print(prog_lang[::-1])
+print(prog_lang[::1])
+

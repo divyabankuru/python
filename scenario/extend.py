@@ -1,0 +1,11 @@
+a=[1,2,3,4,5]
+b=[6,7,8,9,10]
+print(a)
+print(b)
+a.extend(b)
+print(a)
+b.extend(a)
+count=b.count(10)
+print(count)
+count=b.count(3)
+print(count)
